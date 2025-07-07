@@ -1,4 +1,4 @@
-# zkMIPS_bls12_381
+# ziren_bls12_381
 
 This crate provides an implementation of the BLS12-381 pairing-friendly elliptic curve construction.
 

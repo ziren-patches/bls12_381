@@ -28,7 +28,7 @@ zeroize = { version = "1.4", optional = true, default-features = false }
 hex = { version = "0.4", optional = true, default-features = false, features = ["alloc"] }
 
 [target.'cfg(target_os = "zkvm")'.dependencies]
-zkm-lib = { git = "https://github.com/ProjectZKM/Ziren.git", default-features = false }
+zkm-lib = { git = "https://github.com/ProjectZKM/Ziren.git", default-features = false, tag = "v1.2.7" }
 
 [dev-dependencies]
 csv = ">= 1.0, < 1.2" # csv 1.2 has MSRV 1.60
